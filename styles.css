@@ -1,0 +1,334 @@
+body {
+  font-family: "Commissioner", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+.navbar {
+  display: flex;
+  background-image: url(./images/image-hero-desktop.jpg);
+  background-repeat: no-repeat;
+  height: 65vh;
+  justify-content: space-around;
+}
+.navbar div {
+  margin-top: 20px;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+  margin: 15px;
+  font-size: 15px;
+}
+.first-box {
+  border-radius: 10px;
+  border: 1px hsl(0, 0%, 48%);
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto;
+  margin-top: -85px;
+  background-color: white;
+  height: 220px;
+}
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.back-modal h3 {
+  text-align: left;
+}
+.back-modal p {
+  font-size: 10px;
+  color: hsl(0, 0%, 48%);
+  text-align: left;
+}
+.card {
+  display: flex;
+  width: 70%;
+  border: 1px solid lightgray;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  border-radius: 11px;
+  margin-top: 25px;
+  padding: 20px;
+}
+.card label {
+  color: green;
+  cursor: pointer;
+  font-size: 10px;
+}
+.card span {
+  margin-left: 40px;
+  text-align: right;
+  color: black;
+}
+.hidden {
+  display: none;
+}
+.back-modal {
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+.mahogany {
+  display: flex;
+  justify-content: space-between;
+}
+.mahogany input {
+  /* padding: 10px 20px; */
+  border-radius: 10px;
+  margin: 4px 2px;
+}
+.header {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.logo {
+  margin-top: -27px;
+}
+.text {
+  color: hsl(0, 0%, 48%);
+  margin-bottom: 15px;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+.flex button {
+  border-radius: 16px;
+  margin: 12px 4px;
+  text-align: center;
+  background-color: hsl(176, 50%, 47%);
+  padding: 10px 20px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  border: none;
+}
+.span {
+  display: flex;
+  margin: 2px;
+  border-radius: 30px;
+  background-color: lightgray;
+  cursor: pointer;
+}
+.span p {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: hsl(0, 0%, 48%);
+  font-weight: 400;
+}
+.numbers {
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: white;
+  max-width: 650px;
+  margin: 0 auto;
+  margin-top: 30px;
+  height: 175px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.vl {
+  border: 1px solid lightgray;
+  height: 45px;
+  margin-right: 50px;
+}
+.fig {
+  margin-right: 50px;
+}
+.fig p {
+  color: hsl(0, 0%, 48%);
+  margin-top: -10px;
+}
+.bar1 {
+  width: 600px;
+  background-color: whitesmoke;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 10px;
+  margin-bottom: 30px;
+}
+.half {
+  width: 80%;
+  background-color: hsl(176, 50%, 47%);
+  height: 100%;
+}
+.about {
+  max-width: 650px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 30px;
+  border-radius: 10px;
+  height: 135vh;
+}
+.title {
+  text-align: start;
+  font-size: 16px;
+  margin: 5px;
+}
+.about p {
+  color: hsl(0, 0%, 48%);
+  font-size: 14px;
+  letter-spacing: 5;
+  margin: 5px;
+  text-align: start;
+}
+.card_container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid lightgray;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  margin-top: 25px;
+}
+.card_first {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+.card_first p {
+  color: hsl(176, 72%, 28%);
+}
+.card_last {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.card_last button {
+  background-color: hsl(176, 50%, 47%);
+  border-radius: 16px;
+  color: whitesmoke;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  margin: 12px 4px;
+  text-align: center;
+  cursor: pointer;
+}
+.card_last span {
+  color: hsl(0, 0%, 48%);
+  font-size: 12px;
+}
+.card_last div {
+  display: flex;
+  align-items: center;
+}
+.card_last h2 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.different {
+  color: lightgrey;
+}
+.hamburger {
+  display: none;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+@media screen and (max-width: 600px) {
+  .links {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    right: -82%;
+    width: 350px;
+    height: 31%;
+    top: 10%;
+    background-color: white;
+  }
+  .links a {
+    color: black;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .links.active {
+    transform: translateX(-100%);
+    display: flex;
+    justify-content: center;
+  }
+  .first-box {
+    width: 80%;
+    height: 40%;
+  }
+  .span p {
+    display: none;
+  }
+  .numbers {
+    width: 80%;
+    height: 40%;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .fig {
+    margin-right: 0;
+  }
+  .vl {
+    border: 1px solid lightgray;
+    width: 55px;
+    height: 0px;
+    margin-right: 18px;
+  }
+  .bar1 {
+    width: 80%;
+  }
+  .about {
+    width: 80%;
+    height: 100%;
+  }
+  .card_first {
+    flex-direction: column;
+    text-align: left;
+  }
+  .card_last {
+    flex-direction: column;
+  }
+}
