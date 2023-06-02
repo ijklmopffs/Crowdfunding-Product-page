@@ -8,6 +8,7 @@ body {
 header {
   background-image: url(./images/image-hero-desktop.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   height: 65vh;
 }
 
